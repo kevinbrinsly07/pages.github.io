@@ -1,0 +1,65 @@
+body{
+  background-image: url('../img/ship.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #1f242d;
+}
+
+.description{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.home-content{
+  margin-top: 250px;
+  
+}
+
+a.gitHubRepo{
+  text-decoration: none;
+  color: #1f242d; 
+  animation: slideLeft 3s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+}
+
+.header{
+  position:relative;
+}
+
+.section-mini{
+  margin-top: 50px;
+}
+
+button{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  background-color: #fff ;
+  border: none;
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  animation: slideLeft 3s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+}
+
+button:hover {
+  background-color: #ffbf00;
+  transition: 0.7s;
+}
+
+
+/* KEYFRAMES ANIMATIONS */
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) ;
+    opacity: 1;
+  }
+}
+
+
