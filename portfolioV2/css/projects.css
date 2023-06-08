@@ -12,7 +12,7 @@ body{
 }
 
 .home-content{
-  margin-top: 250px;
+  margin-top: 500px;
   
 }
 
@@ -46,6 +46,22 @@ button{
 button:hover {
   background-color: #ffbf00;
   transition: 0.7s;
+}
+
+
+
+@media (max-width: 612px) {
+  .home-content{
+    margin-top: 250px;
+
+    margin-bottom: 50px;
+    
+  }
+
+  
+
+ 
+
 }
 
 
