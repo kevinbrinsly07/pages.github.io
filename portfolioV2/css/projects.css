@@ -31,24 +31,9 @@ a.gitHubRepo{
   margin-top: 50px;
 }
 
-button{
-  margin-top: 5px;
+.btn{
   margin-bottom: 40px;
-  background-color: #fff ;
-  border: none;
-  padding: 3px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-  animation: slideLeft 3s ease forwards;
-  animation-delay: calc(.2s * var(--i));
 }
-
-button:hover {
-  background-color: #ffbf00;
-  transition: 0.7s;
-}
-
-
 
 @media (max-width: 612px) {
   .home-content{
@@ -58,9 +43,6 @@ button:hover {
     
   }
 
-  
-
- 
 
 }
 
