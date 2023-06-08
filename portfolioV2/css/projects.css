@@ -1,9 +1,8 @@
 body{
-  background-image: url('../img/ship.jpeg');
+  background-image: url('../img/svg/green.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #1f242d;
 }
 
 .description{
@@ -12,13 +11,13 @@ body{
 }
 
 .home-content{
-  margin-top: 500px;
+  margin-top: 600px;
   
 }
 
 a.gitHubRepo{
   text-decoration: none;
-  color: #1f242d; 
+  color: #fff; 
   animation: slideLeft 3s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
@@ -35,16 +34,33 @@ a.gitHubRepo{
   margin-bottom: 40px;
 }
 
-@media (max-width: 612px) {
+
+
+@media (max-width: 669px) {
   .home-content{
-    margin-top: 250px;
+    margin-top: 700px;
 
     margin-bottom: 50px;
     
   }
 
+}
+
+@media (max-width: 605px) {
+  .home-content{
+    margin-top: 500px;
+
+    margin-bottom: 30px;
+    
+  }
+
+ 
 
 }
+
+
+
+
 
 
 /* KEYFRAMES ANIMATIONS */
@@ -59,5 +75,6 @@ a.gitHubRepo{
     opacity: 1;
   }
 }
+
 
 

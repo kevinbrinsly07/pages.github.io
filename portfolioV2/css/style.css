@@ -9,7 +9,7 @@
 }
 
 body{
-  background-image: url('../img/green.jpeg');
+  background-image: url("../img/svg/blue.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -42,7 +42,7 @@ body{
 .navbar a{
   display: inline-block;
   font-size: 20px;
-  color: #1f242d;
+  color: #fff;
   text-decoration: none;
   font-weight: 700;
   margin-left: 35px;
@@ -77,6 +77,7 @@ body{
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: .7s;
+  color: #fff;
 }
 
 .home-content h3:nth-of-type(2){
@@ -94,6 +95,7 @@ body{
   font-weight: 700;
   margin: -3px 0 ;
   opacity: 0;
+  color: #fff;
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
@@ -103,6 +105,7 @@ body{
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
+  color: #fff;
 }
 
 .social-media a {
@@ -149,6 +152,7 @@ body{
 .text-reset {
   text-decoration: none;
 }
+
 
 
 
