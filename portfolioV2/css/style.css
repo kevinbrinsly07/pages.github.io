@@ -106,6 +106,16 @@ body{
   animation-delay: 1s;
 }
 
+.home2 h1 {
+  color: #0ef;
+  
+}
+
+.home2 h4 {
+  color: #0ef;
+  padding-top: 30px;
+}
+
 .home-content p {
   font-size: 16px;
   opacity: 0;
@@ -113,6 +123,7 @@ body{
   animation-delay: 1s;
   color: #fff;
 }
+
 
 .social-media a {
   display: inline-flex;
@@ -160,26 +171,27 @@ body{
 }
 
 
-footer{
-  margin-bottom: 0%;
-  position: sticky;
-  background-color: #091B2E;
-  font-size: 12px;
-}
 
 .text-light{
   text-decoration: none;
+}
+
+.home-content2 img {
+  position: absolute;
+  margin-bottom: 0%;
+  margin-left: -30%;
 }
 
 
 @media (max-width: 605px) {
 
   div.home-content h1{
+    
     font-size: 40px;
   }
 
   .home-content h3{
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .home-content p{
@@ -187,7 +199,7 @@ footer{
   }
 
   .multiple-text{
-    font-size: 22px;
+    font-size: 24px;
   }
 
  
@@ -198,6 +210,7 @@ footer{
 @media (max-width: 450px) {
 
   div.home-content h1{
+    
     font-size: 36px;
   }
 
