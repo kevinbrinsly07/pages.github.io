@@ -16,6 +16,15 @@ body{
   
 }
 
+.home-content h3{
+  animation: slideLeft 3s ease forwards;
+  animation-delay: calc(.2s * var(--i));
+}
+
+nav a{
+  text-decoration: none;
+}
+
 a.gitHubRepo{
   text-decoration: none;
   color: #fff; 
