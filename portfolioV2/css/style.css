@@ -230,6 +230,11 @@ a{
   color: #fff;
 }
 
+.home-content2 h1{
+  padding-top: 8%;
+
+}
+
 
 .social-media a {
   display: inline-flex;
