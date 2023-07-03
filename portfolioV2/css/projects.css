@@ -3,6 +3,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #fff;
 }
 
 .description{
@@ -19,6 +20,7 @@ body{
 .home-content h3{
   animation: slideLeft 3s ease forwards;
   animation-delay: calc(.2s * var(--i));
+  color: #fff;
 }
 
 nav a{
@@ -49,39 +51,20 @@ a.gitHubRepo{
 @media (max-width: 669px) {
   .home-content{
     margin-top: 900px;
-
     margin-bottom: 50px;
     
   }
-
 }
 
 @media (max-width: 605px) {
   .home-content{
     margin-top: 700px;
-
     margin-bottom: 30px;
     
   }
-
- 
-
 }
 
 
-
-/* KEYFRAMES ANIMATIONS */
-@keyframes slideRight {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0) ;
-    opacity: 1;
-  }
-}
 
 
 

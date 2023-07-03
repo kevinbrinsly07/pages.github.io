@@ -39,7 +39,7 @@ a{
 
 }
 
-/*==navigation===============================*/
+/* NAVIGATION */
 .navigation{
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ a{
   height: 2px;
   width: 25px;
   position: relative;
-  transition: background 0.2s ease-out;
+  animation: slideTop 1s ease forwards;
 }
 .navigation .menu-icon .nav-icon::before,
 .navigation .menu-icon .nav-icon::after{
@@ -74,6 +74,7 @@ a{
   height: 100%;
   transition: all ease-out 0.2s;
 }
+
 .navigation .menu-icon .nav-icon::before{
   top: 8px;
 }
@@ -95,7 +96,7 @@ a{
   display: none;
 }
 
-/*--menu-------------*/
+/* MENU */
 .menu{
   position: fixed;
   left: 0px;
@@ -126,19 +127,12 @@ a{
   display: flex;
 }
 
-@keyframes fade{
-  0%{
-      opacity: 0;
-  }
-  100%{
-      opacity: 1;
-  }
-}
 
-/*--logo--------------*/
+/* LOGO */
 .logo{
   margin: 0px auto 0px 10px;
   display: flex;
+  animation: slideTop 1s ease forwards;
 }
 
 .header{
@@ -153,7 +147,6 @@ a{
   align-items: center;
   z-index: 100;
 }
-
 
 
 .home{
@@ -282,7 +275,6 @@ a{
 }
 
 
-
 .text-light{
   text-decoration: none;
 }
@@ -297,56 +289,18 @@ a{
 
 
 
-@media (max-width: 605px) {
-
-  div.home-content h1{
-    
-    font-size: 40px;
-  }
-
-  .home-content h4{
-    font-size: 24px;
-  }
-
-  .home-content p{
-    font-size: 10px;
-  }
-
-  .multiple-text{
-    font-size: 24px;
-  }
-
- 
-  
-  
-}
-
-@media (max-width: 450px) {
-
-  div.home-content h1{
-    
-    font-size: 36px;
-  }
-
-  .home-content h4{
-    font-size: 18px;
-  }
-
-  .home-content p{
-    font-size: 9px;
-  }
-
-  .multiple-text{
-    font-size: 18px;
-  }
-
- 
-
-}
-
-
 
 /* KEYFRAMES ANIMATIONS */
+
+@keyframes fade{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
@@ -359,7 +313,6 @@ a{
   }
 }
 
-/* KEYFRAMES ANIMATIONS */
 @keyframes slideLeft {
   0% {
     transform: translateX(100px);
@@ -372,7 +325,6 @@ a{
   } 
 }
 
-/* KEYFRAMES ANIMATIONS */
 @keyframes slideTop {
   0% {
     transform: translateY(100px);
@@ -385,7 +337,6 @@ a{
   } 
 }
 
-/* KEYFRAMES ANIMATIONS */
 @keyframes slideBottom {
   0% {
     transform: translateY(-100px);
@@ -398,7 +349,6 @@ a{
   }
 }
 
-/* KEYFRAMES ANIMATIONS */
 @keyframes zoomIn {
   0% {
     transform: scale(0) ;
@@ -423,7 +373,8 @@ a{
   }
 }
 
-/*==Making-Home-page-Responsive==================*/
+/*  MAKING HOME PAGE RESPONSIVE */
+
 @media(max-width:1200px){
   .menu li a{
       margin: 0px;
@@ -455,6 +406,42 @@ a{
   .menu li a:hover{
       font-size: 1.8rem;
   }
-  
 }
 
+@media (max-width: 605px) {
+
+  div.home-content h1{ 
+    font-size: 40px;
+  }
+
+  .home-content h4{
+    font-size: 24px;
+  }
+
+  .home-content p{
+    font-size: 10px;
+  }
+
+  .multiple-text{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  div.home-content h1{
+    font-size: 36px;
+  }
+
+  .home-content h4{
+    font-size: 18px;
+  }
+
+  .home-content p{
+    font-size: 9px;
+  }
+
+  .multiple-text{
+    font-size: 18px;
+  }
+}
